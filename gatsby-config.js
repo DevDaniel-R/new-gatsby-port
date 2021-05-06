@@ -6,7 +6,13 @@
 
 module.exports = {
   /* Your site config here */
-
+  siteMetadata: {
+    title: `Web Development`,
+    description: `Awesome WebDev Portfolio built with Gatsby`,
+    titleTemplate: `%s | Ambit-Web`,
+    url: `http://ambitweb.io`,
+    image: `/mainImg.png`,
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
