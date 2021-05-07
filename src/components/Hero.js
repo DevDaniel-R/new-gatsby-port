@@ -10,13 +10,13 @@ const Hero = () => {
       <section className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <h4>Hi there, and welcome to</h4>
+            <h4>Hello, I'm</h4>
             <div className="underline"></div>
-            <h1>AMBIT-WEB</h1>
+            <h1>Daniel Rodriguez</h1>
             <div></div>
             <h3>
-              building web components <br />
-              that drive results!
+              I create functionally rich &<br /> aesthetically stunning
+              websites.
             </h3>
             <Link to="/contact" className="btn">
               contact
@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
         </article>
         <StaticImage
-          src="../assets/images/hero2.svg"
+          src="../assets/images/thinkcode.svg"
           alt="portfolio"
           className="hero-img"
           placeholder="blurred"
