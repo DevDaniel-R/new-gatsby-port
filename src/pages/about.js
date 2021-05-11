@@ -2,6 +2,7 @@ import React from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 import Title from "../components/Title"
+import { StaticImage } from "gatsby-plugin-image"
 import Seo from "../components/Seo"
 
 const About = ({ data }) => {

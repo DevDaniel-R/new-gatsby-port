@@ -18,10 +18,10 @@ const Quote = () => {
             </div>
             <p className="lineheight ending">
               I do more than make websites pretty. I utilize my web development
-              expertise to make wondering users focus and act. Giving your
+              expertise to make wandering users focus and act. Giving your
               product or platform an online advantage! By analyzing web trends
-              and technology I have the ability to create the solution to your
-              online success!
+              and technology I have the skills to create the solution to your
+              online problems!
             </p>
             <Link to="/contact" className="btn">
               Contact Me
