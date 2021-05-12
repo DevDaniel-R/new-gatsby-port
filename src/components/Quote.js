@@ -31,12 +31,14 @@ const Quote = () => {
             </Link>
           </div>
         </article>
-        <StaticImage
-          src="../assets/images/hero.svg"
-          alt="portfolio"
-          className="hero-img"
-          placeholder="blurred"
-        />
+        <div className="hero-img">
+          <StaticImage
+            src="../assets/images/hero.svg"
+            alt="portfolio"
+            className="hero-img"
+            placeholder="blurred"
+          />
+        </div>
       </section>
     </header>
   )
